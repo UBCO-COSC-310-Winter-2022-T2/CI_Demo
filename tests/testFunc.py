@@ -1,4 +1,4 @@
-import funcs
+from src import func
 
 # Unit test for the is_even function
 def test_is_even():
