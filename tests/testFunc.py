@@ -1,3 +1,5 @@
+import funcs
+
 # Unit test for the is_even function
 def test_is_even():
     assert is_even(2) == True
