@@ -11,3 +11,8 @@ def test_calculate_rectangle_area():
     assert calculate_rectangle_area(3, 4) == 12
     assert calculate_rectangle_area(0, 5) == 0
     assert calculate_rectangle_area(10, 10) == 100
+
+def test_calculate_square_area():
+    assert calculate_square_area(5)  == 25
+    assert calculate_square_area(0)  == 0
+    assert calculate_square_area(10)  == 100
