@@ -1,4 +1,4 @@
-from src import func
+from src.func import *
 
 # Unit test for the is_even function
 def test_is_even():
