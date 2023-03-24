@@ -8,3 +8,6 @@ def is_even(number):
 
 def calculate_square_area(length):
     return calculate_rectangle_area(length, length)
+
+def calculate_circle_area(radius):
+    return 3.14 * radius * radius

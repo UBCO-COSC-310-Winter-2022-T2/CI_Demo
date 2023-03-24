@@ -16,3 +16,7 @@ def test_calculate_square_area():
     assert calculate_square_area(5)  == 25
     assert calculate_square_area(0)  == 0
     assert calculate_square_area(10)  == 100
+
+def test_calculate_circle_area():
+    assert calculate_circle_area(0)   == 0
+    assert calculate_circle_area(1)   == 3.14
